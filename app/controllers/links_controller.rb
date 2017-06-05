@@ -3,7 +3,7 @@ class LinksController < ApplicationController
     @links = Link.get_hot_reads
   end
 
-  def create
-    
-  end
+  # def create
+  #
+  # end
 end
