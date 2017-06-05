@@ -1,6 +1,9 @@
 class LinksController < ApplicationController
   def index
-    # binding.pry
-    @link = Link.get_hot_reads
+    @links = Link.get_hot_reads
+  end
+
+  def create
+    
   end
 end
