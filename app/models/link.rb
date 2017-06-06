@@ -1,5 +1,4 @@
 class Link
-  # validates :url, uniquess: true
 
   attr_reader :url
 
