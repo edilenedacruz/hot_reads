@@ -1,9 +1,5 @@
 class LinksController < ApplicationController
   def index
-    @links = Link.get_hot_reads
+    @links = Link.where('updated_at > ?', 24.hours.ago).order(count: :desc).limit(10)
   end
-
-  # def create
-  #
-  # end
 end
