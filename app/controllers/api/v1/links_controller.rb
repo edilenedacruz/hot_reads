@@ -1,6 +1,6 @@
 class Api::V1::LinksController < ApplicationController
   def index
-    render json: Link.all
+    render json: Link.where('updated_at > ?', 24.hours.ago).order(count: :desc).limit(10)
   end
 
   def create

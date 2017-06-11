@@ -35,6 +35,6 @@ RSpec.describe "Links API" do
     hot_links = JSON.parse(response.body).last
 
     expect(response).to be_success
-    expect(top_link).to eq(link_1.url)
+    expect(top_link["url"]).to eq(link_1.url)
   end
 end
