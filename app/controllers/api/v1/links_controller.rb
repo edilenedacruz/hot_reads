@@ -6,9 +6,10 @@ class Api::V1::LinksController < ApplicationController
   end
 
   def create
-    binding.pry
+    # binding.pry
     @link = Link.find_or_create_by(url: link_params[:url])
     @link.count += 1
+    @link.save
   end
 
   private
