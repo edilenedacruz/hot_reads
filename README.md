@@ -4,7 +4,7 @@ Hot Reads is a Rails application that works jointly with the app [URLockbox](htt
 
 ###Production site
 
-https://frozen-mesa-43893.herokuapp.com/
+https://hot-reads-g.herokuapp.com/
 
 ###Set up
 
