@@ -1,6 +1,6 @@
 # Hot Reads
 
-Hot Reads is a Rails application that works jointly with the app [URLockbox](https://github.com/edilenedacruz/m4-final-starter). Hot Reads displays the top 10 links accessed by all users from URLockbox within the past 24 hours.
+Hot Reads is a Rails application that works jointly with the app [URLockbox](https://github.com/edilenedacruz/URLockbox/). Hot Reads displays the top 10 links accessed by all users from URLockbox within the past 24 hours.
 
 ### Production site
 
